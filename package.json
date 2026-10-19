@@ -7,16 +7,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node assets/js/product.js",
-    "dev": "nodemon assets/js/product.js",
-    "dev:inspect": "nodemon --inspect=9229 assets/js/product.js",
-    "debug": "nodemon --inspect brk=127.0.01:9229 assets/js/product.js"
+    "start": "node assets/js/server.js",
+    "dev": "nodemon assets/js/server.js",
+    "dev:inspect": "nodemon --inspect=9229 assets/js/server.js",
+    "debug": "nodemon --inspect brk=127.0.01:9229 assets/js/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "cors": "^2.8.6",
     "nodemon": "^3.1.14"
   }
 }
